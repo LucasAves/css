@@ -1,0 +1,34 @@
+body {
+    background-image: url('https://arquivo.devmedia.com.br/marketing/img/guia-css-38149.png'); 
+    background-size: auto 100vh;
+    font-family: Arial;
+    height: 100vh
+  }
+  .menu {
+    background-color: white;
+  }
+  .menu ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu li {
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: blue;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: red;
+  }
+  .site-subtitle,
+  .site-title {
+    color: whitesmoke;
+    text-align: center;
+    text-shadow:#000 1px 1px
+  }
+  .site-subtitle {
+    font-style: italic;
+  }
+  
